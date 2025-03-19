@@ -108,7 +108,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-embassy"
+name = "rust-empty-firmware-template"
 version = "0.1.0"
 dependencies = [
  "cortex-m",

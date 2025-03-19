@@ -7,7 +7,6 @@ use cortex_m_semihosting::hprintln;
 
 #[entry]
 fn main() -> ! {
-    // Your bare-metal logic here (GPIO setup, etc.)
     loop {}
 }
 
