@@ -4,9 +4,11 @@
 use cortex_m_rt::entry;
 use core::panic::PanicInfo;
 use cortex_m_semihosting::hprintln;
+use defmt::info;
 
 #[entry]
 fn main() -> ! {
+    info!("Started");
     loop {}
 }
 
